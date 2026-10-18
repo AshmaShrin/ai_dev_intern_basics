@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Files created by the notebooks while you practise
+notebooks/git_playground/
+notebooks/*.txt
+notebooks/*.csv
+
+# Kaggle data (download it yourself, see data/README.md)
+data/*.csv
+data/*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
