@@ -44,19 +44,19 @@ ai_dev_intern_basics/
 ### Step 1: Clone or fork this repository
 This gives you your own copy of all the notebooks on your computer. You need Git for this: install it from [git-scm.com/downloads](https://git-scm.com/downloads) and check it with `git --version`.
 
-**Option A (recommended): fork, then clone.** Click **Fork** at the top right of the GitHub page to create your own copy under your account, then clone *your* copy. This lets you save and push your own progress.
+**Interns submitting weekly assignments: fork, then clone (required).** Click **Fork** at the top right of the GitHub page to create your own copy under your account, then clone *your* copy. You will push your work there and send it to us as a Pull Request (see [Assignment submission workflow](#-assignment-submission-workflow-and-deadlines)).
 ```bash
 git clone https://github.com/<your-username>/ai_dev_intern_basics.git
 cd ai_dev_intern_basics
 ```
 
-**Option B: clone directly.** Quicker, but you won't be able to push your changes to the original.
+**Just exploring on your own? Clone directly.** Quicker, but you won't be able to push your changes to the original.
 ```bash
 git clone https://github.com/<original-owner>/ai_dev_intern_basics.git
 cd ai_dev_intern_basics
 ```
 
-> No Git yet? Use the green **Code → Download ZIP** button on GitHub and unzip it. You can set up Git later in Week 3.
+> No Git yet? Install it now. The submission workflow depends on it, and Week 3 teaches it in detail. (The **Code → Download ZIP** button works for reading the notebooks, but you cannot submit assignments from a ZIP.)
 
 All the next commands are run **inside this `ai_dev_intern_basics` folder**.
 
@@ -139,6 +139,41 @@ A notebook is a document made of **cells**. Text cells explain; code cells run P
 | 40–60 min | Read and run today's section, do the exercises |
 | 15 min | Read one page of the official docs on today's topic |
 | 5 min | Commit your work with Git (`git add .`, `git commit -m "Day 3 done"`) |
+
+---
+
+## 📬 Assignment submission workflow and deadlines
+
+To submit your weekly assignments and track your coding practice, we follow a standard industry Git workflow:
+
+1. **Fork the repository:** fork the main repository (`ai_dev_intern_basics`) to your personal GitHub account.
+2. **Clone and code:** clone your forked repository locally, complete your weekly assignments, and push the code changes to your personal repository.
+3. **Submit via Pull Request:** once a weekly assignment is ready, open a Pull Request (PR) from your fork back to our main repository so our mentors can review your code, provide inline feedback, and approve your progress.
+
+### ⏰ Deadline: every Sunday
+
+**Sunday is the last day of each week**, and it is the deadline for that week's assignment. By the end of Sunday you must have:
+
+1. completed the week's notebook and exercises,
+2. pushed your code to your fork, and
+3. opened the Pull Request to the main repository.
+
+| Week | Notebook | Deadline |
+|---|---|---|
+| 1 | `week1_python_basics.ipynb` | End of the first Sunday |
+| 2 | `week2_python_oop.ipynb` | End of the second Sunday |
+| 3 | `week3_git_and_numpy.ipynb` | End of the third Sunday |
+| 4 | `week4_numpy_supervised_ml.ipynb` | End of the fourth Sunday |
+
+> ⚠️ **Time is an important part of your evaluation.** Your assignment is evaluated on the quality of your code **and** on whether you submitted on time. A PR opened after Sunday counts as late, even if the work is perfect. Do not leave everything to the last day.
+
+### ✅ Tips for submitting on time
+- Commit and push a little every day (`git add .`, `git commit -m "Day 2 done"`, `git push`). The history shows your steady progress.
+- Open the PR early as a draft if you like, and keep pushing to the same branch. New commits appear in the PR automatically.
+- Aim to finish by Saturday evening, so Sunday is your safety buffer for problems (internet, Git errors, merge conflicts).
+- Before opening the PR, use **Kernel → Restart & Run All** and make sure your notebook runs without errors.
+- Use a clear PR title, for example `Week 1 assignment - <your name>`.
+- If something goes wrong, tell your mentor **before** the deadline.
 
 ---
 
